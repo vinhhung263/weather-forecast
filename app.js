@@ -7,7 +7,7 @@ const pathPublic = path.join(__dirname, "./public"); //Static files in Express
 const app = express();
 
 const getWeather = async (location) => {
-    const access_key = "06de74fe2128478694e95048210311";
+    const access_key = "*********************";
     const url = `http://api.weatherapi.com/v1/current.json?key=${access_key}&q=${location}&aqi=no`;
 
     try {
