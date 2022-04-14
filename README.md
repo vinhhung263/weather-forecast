@@ -2,6 +2,8 @@
 
 *Env: Install NodeJS, npm
 
+*Package: hbs view engine, async-request
+
 *Weather API: https://www.weatherapi.com/ (Free)
 
 *Demo!
