@@ -1,14 +1,12 @@
 # weather-forecast
 
-*Env: Install NodeJS, npm
+- Env: Install NodeJS, npm
 
-*Package: hbs view engine, async-request
+- Package: hbs view engine, async-request
 
-*Weather API: https://www.weatherapi.com/ (Free)
+- Weather API: https://www.weatherapi.com/ (Free)
 
-*Demo! 
-
-- Online: https://eweather-forecast.herokuapp.com/
+- Demo: https://eweather-forecast.herokuapp.com/
 
 ![Untitled2](https://user-images.githubusercontent.com/62415557/163305367-3c0b500d-1950-4243-85d8-99e22f2df096.png)
 
