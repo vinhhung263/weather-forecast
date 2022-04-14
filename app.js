@@ -31,14 +31,11 @@ const getWeather = async (location) => {
     };
 };
 
-
 app.use(express.static(pathPublic));
 app.set("view engine", "hbs");
-
 app.get("/", async (req, res) => {
     const params = req.query;
     const location = params.address;
-
     const weather = await getWeather(location);
 
     if (location) {
